@@ -1,0 +1,71 @@
+Hand Gesture Recognition System
+Overview
+
+Hand gestures are an intuitive and natural way for humans to communicate. This project utilizes MediaPipe and OpenCV to develop a real-time hand gesture recognition system. By detecting gestures such as "THUMBS UP," "CLOSED FIST," "OPEN FIST," and "PEACE", the system enables applications in virtual reality, assistive technology, and beyond.
+Features
+
+    Real-time Hand Tracking using MediaPipe
+
+    Gesture Recognition for predefined gestures
+
+    OpenCV Integration for image processing
+
+    Highly Efficient & Lightweight suitable for real-time applications
+
+Technologies Used
+
+    Python
+
+    MediaPipe (for hand tracking)
+
+    OpenCV (for image processing)
+
+    NumPy (for mathematical operations)
+
+Installation
+
+Ensure you have Python installed (recommended: Python 3.8+). Then, install the necessary dependencies:
+
+
+pip install mediapipe opencv-python numpy
+
+
+           How It Works
+
+    The system captures live video feed from a webcam.
+
+    MediaPipe's Hand Tracking module detects hand landmarks.
+
+    Key landmarks are extracted and analyzed to recognize predefined gestures.
+
+    OpenCV displays the result in real-time.
+
+Supported Gestures
+
+    Thumbs Up 👍
+
+    Closed Fist ✊
+
+    Open Fist ✋
+
+    Peace Sign ✌️
+
+Potential Applications
+
+    Virtual Reality (VR) & Augmented Reality (AR)
+
+    Sign Language Recognition
+
+    Human-Computer Interaction
+
+    Assistive Technology for Disabled Individuals
+
+Future Enhancements
+
+    Support for custom gestures
+
+    Integration with Machine Learning models for better accuracy
+
+    Implementation in mobile and IoT devices
+
+	
